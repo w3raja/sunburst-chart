@@ -20,8 +20,7 @@ export class MyDoughnutChartComponent implements OnInit {
   
   ] ;
 
-  
-
+ 
 
   public doughnutChartDataT =[3,2.2,2.1,0.8];
   public doughnutChartData =[0,0,0,0,5,3,3,3,3,2,2,2,2,2,2,2,2,2,2,2 ];
@@ -33,5 +32,17 @@ export class MyDoughnutChartComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  public chartOptions: any = {
+    pieceLabel: {
+      render: 'label',
+      fontColor: '#000',
+      arc: true,
+      fontSize: 12
+      
+
+    }
+  }
+
 
 }

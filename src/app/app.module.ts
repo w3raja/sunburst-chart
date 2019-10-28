@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { ChartsModule } from 'ng2-charts';
+// import 'chartjs-plugin-labels';
+import 'chart.piecelabel.js';
 
 import { AppRoutingModule } from './app-routing.module';
 

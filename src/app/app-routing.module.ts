@@ -10,7 +10,7 @@ const routes: Routes = [
   {path:'bar-chart', component:MyBarChartComponent},
   {path:'radar-chart', component:MyRadarChartComponent},
   {path:'pie-chart', component:MyPieChartComponent},
-  {path:'**', component:MyBarChartComponent}
+  {path:'**', component:MyDoughnutChartComponent}
 ];
 
 @NgModule({
